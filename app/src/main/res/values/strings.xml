@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sudoku1.1</string>
+    <string name="auxMatrix">auxMatrix</string>
+    <string name="save">Save game</string>
+    <string name="resume">Resume game</string>
+    <string name="newGame">New game</string>
+    <string name="Restart">Restart</string>
+    <string name="Reset">Reset</string>
+    <string name="options">Options</string>
+    <string name="help">Help</string>
+    <string name="About">About</string>
+    <string name="Exit">Exit</string>
+    <string name="mainMenu">Main menu</string>
+    <string name="Menu">Menu</string>
+    <string name="AUX">Notes</string>
+    <string name="Undo">Undo</string>
+    <string name="Diff1">Simple</string>
+    <string name="Diff2">Medium</string>
+    <string name="Diff3">Insane</string>
+    <string name="Difficulty">Difficulty</string>
+    <string name="Pen">pen</string>
+    <string name="Pencil">penc</string>
+</resources>
