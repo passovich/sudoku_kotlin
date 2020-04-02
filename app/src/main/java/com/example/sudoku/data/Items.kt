@@ -8,6 +8,7 @@ class Items(private var context: Context, private val settings: Settings) {
     private var m: MatrixK = MatrixK(3)
     private var file: File = File()
     private var undoCounter = 0
+    private var undoArray: Array<String> = Array(10){""}
     var cells: Array<Item> = Array(81) { Item(0, 0, 0, 0, 0, context) }
 
     init {
@@ -53,8 +54,7 @@ class Items(private var context: Context, private val settings: Settings) {
     }
 
     fun saveItemsToUndo(){
-        //code to save here
-        toString()
+        undoArray[1] = toString()
     }
 
     fun loadItemsFromUndo(){

@@ -22,6 +22,7 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
+
         val anim = AnimationUtils.loadAnimation(this, R.anim.alphaprozrachn)
         button1 = findViewById(R.id.button1)
         button1.setOnClickListener(this)
